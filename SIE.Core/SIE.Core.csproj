@@ -6,7 +6,36 @@
     <Nullable>enable</Nullable>
 	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 	<Company>SOLPYME</Company>
+	<Description>Librería para las utilidades de las diferentes aplicaciones, micro servicios y librerías varias de SIE (Sistema Integral para Empresas)</Description>
+	<PackageProjectUrl>https://github.com/SOLPYME/SIE.Core</PackageProjectUrl>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
+	<RepositoryType>git</RepositoryType>
+	<RepositoryUrl>https://github.com/SOLPYME/SIE.Core</RepositoryUrl>
+	<PackageTags>SIE; Core; Utils</PackageTags>
+	<NeutralLanguage>es-ES</NeutralLanguage>
+	<PackageLicenseFile>LICENSE</PackageLicenseFile>
+	<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+	<AnalysisLevel>6.0</AnalysisLevel>
   </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <WarningLevel>7</WarningLevel>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <WarningLevel>7</WarningLevel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Dapper" Version="2.1.35" />

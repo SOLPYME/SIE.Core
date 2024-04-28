@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIE.Core.Test", "SIE.Core.Test\SIE.Core.Test.csproj", "{D7CD3D1F-78BA-43F7-B3A8-2DEFF49E0F14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SIE.Core.Test", "SIE.Core.Test\SIE.Core.Test.csproj", "{D7CD3D1F-78BA-43F7-B3A8-2DEFF49E0F14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIE.Core", "SIE.Core\SIE.Core.csproj", "{76F8A4DF-8811-4076-8460-F3969FB675EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SIE.Core", "SIE.Core\SIE.Core.csproj", "{76F8A4DF-8811-4076-8460-F3969FB675EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIE.Core.Tests", "SIE.Core.Tests\SIE.Core.Tests.csproj", "{178CE9BF-80D1-4999-872B-20F09D2B07EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{76F8A4DF-8811-4076-8460-F3969FB675EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76F8A4DF-8811-4076-8460-F3969FB675EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76F8A4DF-8811-4076-8460-F3969FB675EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{178CE9BF-80D1-4999-872B-20F09D2B07EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{178CE9BF-80D1-4999-872B-20F09D2B07EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{178CE9BF-80D1-4999-872B-20F09D2B07EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{178CE9BF-80D1-4999-872B-20F09D2B07EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
